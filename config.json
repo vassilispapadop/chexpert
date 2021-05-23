@@ -1,0 +1,31 @@
+{
+	"df": "CheXpert-v1.0-small",
+	"train_labels":	"train.csv",
+	"test_labels":	"valid.csv",
+	"features":
+		[
+			"Path",
+			"Sex", 
+			"Age", 
+			"Frontal/Lateral", 
+			"AP/PA",
+			"Enlarged Cardiomediastinum",
+			"Cardiomegaly",
+			"Lung Opacity",
+			"Edema",
+			"Pneumonia",
+			"Lung Lesion",
+			"No Finding",
+			"Consolidation",
+			"Atelectasis","Pneumothorax",
+                	"Pleural Effusion",
+			"Pleural Other",
+			"Fracture",
+			"Support Devices"
+		],
+	"process_features": {
+		"x_col": "Path",
+		"y_col": ["No Finding", "Pneumonia", "Lung Lesion"]
+	},
+	"batch_size": 32
+}

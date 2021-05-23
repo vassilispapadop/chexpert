@@ -25,3 +25,7 @@ logs/fit/train/validation/events.out.tfevents.1621424380.192.168.1.8.93827.37488
 *.v2
 *.gz
 *.v2
+*.pb
+*.pb
+*.swn
+*.swp
