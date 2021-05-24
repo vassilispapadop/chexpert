@@ -2,7 +2,7 @@
 	"df": "CheXpert-v1.0-small",
 	"train_labels":	"train.csv",
 	"test_labels":	"valid.csv",
-	"features":
+	"all_labels":
 		[
 			"Path",
 			"Sex", 
@@ -17,15 +17,16 @@
 			"Lung Lesion",
 			"No Finding",
 			"Consolidation",
-			"Atelectasis","Pneumothorax",
+			"Atelectasis",
+			"Pneumothorax",
                 	"Pleural Effusion",
 			"Pleural Other",
 			"Fracture",
 			"Support Devices"
 		],
-	"process_features": {
+	"processing_labels": {
 		"x_col": "Path",
-		"y_col": ["No Finding", "Pneumonia", "Lung Lesion"]
+		"y_col": ["Pneumothorax", "Pneumonia", "Lung Lesion"]
 	},
 	"batch_size": 32
 }
