@@ -29,3 +29,5 @@ logs/fit/train/validation/events.out.tfevents.1621424380.192.168.1.8.93827.37488
 *.pb
 *.swn
 *.swp
+multilabel_example/model.hdf5
+multilabel_example/best_model.hdf5
