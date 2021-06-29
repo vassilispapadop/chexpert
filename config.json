@@ -19,14 +19,14 @@
 			"Consolidation",
 			"Atelectasis",
 			"Pneumothorax",
-                	"Pleural Effusion",
+            "Pleural Effusion",
 			"Pleural Other",
 			"Fracture",
 			"Support Devices"
 		],
 	"processing_labels": {
 		"x_col": "Path",
-		"y_col": ["Pneumothorax", "Pneumonia", "Lung Lesion"]
+		"y_col": ["Pneumonia", "Pneumothorax"]
 	},
 	"batch_size": 32
 }
