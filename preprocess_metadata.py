@@ -83,4 +83,4 @@ for p in df['Path']:
 zipObj.close()
 
 
-df.to_csv(path + 'train_processed.csv')
+df.to_csv(path + 'train_processed.csv', index=False)
