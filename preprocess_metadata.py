@@ -56,7 +56,7 @@ df.dtypes
 
 df.iloc[:,1:].sum().plot.barh()
 
-df = df.sample(frac=0.2, replace=True, random_state=1)
+df = df.sample(frac=0.2, replace=False, random_state=1)
 print(df.shape)
 df.head()
 
@@ -64,7 +64,6 @@ df.iloc[:,1:].sum().plot.barh()
 
 df.reset_index
 df.head()
-df.to_csv(path + 'train_processed.csv')
 
 # df = df[:10]
 #fix absolute path in df
@@ -83,3 +82,5 @@ for p in df['Path']:
 # close the Zip File
 zipObj.close()
 
+
+df.to_csv(path + 'train_processed.csv')
