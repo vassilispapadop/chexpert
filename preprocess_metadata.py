@@ -56,7 +56,7 @@ df.dtypes
 
 df.iloc[:,1:].sum().plot.barh()
 
-df = df.sample(frac=0.2, replace=False, random_state=1)
+df = df.sample(frac=0.4, replace=False, random_state=1)
 print(df.shape)
 df.head()
 
