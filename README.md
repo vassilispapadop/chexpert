@@ -5,7 +5,7 @@
 ## Requirements
 
 ```python
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Pre-process
