@@ -41,6 +41,8 @@ We only take 2 approaches here
 * DensetNet121
 * EfficientNetB0
 
+![Alt text](images/training_history.png?raw=true "Training History(10 epochs")
+
 ## Performance Metrics
 
 * Confusion Matrix
