@@ -38,7 +38,7 @@ We only take 2 approaches here
 * DensetNet121
 * EfficientNetB0
 
-## Metrics
+## Performance Metrics
 
 * Confusion Matrix
 * Receiver Operating Characteristics (ROC) curve
