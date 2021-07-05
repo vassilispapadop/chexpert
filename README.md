@@ -6,6 +6,10 @@
 ``` python 
 python preprocess_metadata.py
 ```
+train_processed_0_4.csv
+CheXpert-v1.0-processed_0_4.zip
+
+
 * Remove rows without specified value in column Age
 * Keep only x-rays with frontal view (AP)
 * Treat uncertainty(-1), 50%-50% rule
