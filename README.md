@@ -2,6 +2,12 @@
  CheXpert is a large dataset of chest X-rays and competition for automated chest x-ray interpretation
 
 
+# Requirements
+
+```python
+pip install requirements.txt
+```
+
 # Pre-process
 ``` python 
 python preprocess_metadata.py
