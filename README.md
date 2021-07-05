@@ -2,13 +2,13 @@
  CheXpert is a large dataset of chest X-rays and competition for automated chest x-ray interpretation
 
 
-# Requirements
+## Requirements
 
 ```python
 pip install requirements.txt
 ```
 
-# Pre-process
+## Pre-process
 ``` python 
 python preprocess_metadata.py
 ```
@@ -22,9 +22,28 @@ CheXpert-v1.0-processed_0_4.zip
 * Sub-sample full dataset for computational reasons(use only 0.4 of entire set, >60K)
 
 
-# Launch jupyter
+## Launch jupyter
 ```python
 jupyter notebook CheXpert-nb-small.ipynb
 ```
+## Deal with uncertainty
 
+We only take 2 approaches here
+
+* U-zeros -> all uncertainty labels treated as no label activation
+* U-ones -> all uncertainty labels treated as label activation
+
+## Pre-trained Models
+
+* DensetNet121
+* EfficientNetB0
+
+## Metrics
+
+* Confusion Matrix
+* Receiver Operating Characteristics (ROC) curve
+
+## Explanatory Analysis
+
+* Gradient-weighted Class Activation Mapping (Grad-CAM)
 
