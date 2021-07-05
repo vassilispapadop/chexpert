@@ -3,7 +3,9 @@
 
 
 # Pre-process
-### preprocess_metadata.py
+``` python 
+python preprocess_metadata.py
+```
 * Remove rows without specified value in column Age
 * Keep only x-rays with frontal view (AP)
 * Treat uncertainty(-1), 50%-50% rule
