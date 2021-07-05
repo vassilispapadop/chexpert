@@ -33,6 +33,9 @@ We only take 2 approaches here
 * U-zeros -> all uncertainty labels treated as no label activation
 * U-ones -> all uncertainty labels treated as label activation
 
+## Pipeline Overview
+![Alt text](images/pipeline.png?raw=true "Pipeline")
+
 ## Pre-trained Models
 
 * DensetNet121
